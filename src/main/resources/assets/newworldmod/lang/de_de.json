@@ -1,7 +1,15 @@
 {
-  "item.newworldmod.test_item": "Test Item"
+  "item.newworldmod.citrine": "Zitrin",
+  "item.newworldmod.raw_citrine": "Rohes Zitrin",
+  "item.newworldmod.elerium": "Elerium",
 
+  "block.newworldmod.citrine_block": "Zitrin Block",
+  "block.newworldmod.raw_citrine_block": "Rohzitrin Block",
+  "block.newworldmod.citrine_ore": "Zitrinerz",
+  "block.newworldmod.raw_citrine_ore": "Tiefenschiefer Citrinerz",
 
+  "itemGroup.tab_1": "TAB 1",
+  "itemGroup.tab_2": "TAB 2"
 
 
 }

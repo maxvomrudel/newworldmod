@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "newworldmod:citrine_ore",
+    "newworldmod:citrine_block",
+    "newworldmod:raw_citrine_block",
+    "newworldmod:deepslate_citrine_ore"
+  ]
+}
