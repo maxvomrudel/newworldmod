@@ -1,5 +1,6 @@
 package de.martinnussbaum.newworldmod.block;
 
+import de.martinnussbaum.newworldmod.block.custom.SpeedyBlock;
 import de.martinnussbaum.newworldmod.item.ModCreativeModeTab;
 import de.martinnussbaum.newworldmod.item.ModItems;
 import de.martinnussbaum.newworldmod.newworldmod;
@@ -35,6 +36,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB_1);
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB_1);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

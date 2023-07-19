@@ -1,15 +1,12 @@
 package de.martinnussbaum.newworldmod.item.custom;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.contents.TranslatableContents;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import org.w3c.dom.Text;
 
 public class DowsingRodItem extends Item {
     public DowsingRodItem(Properties pProperties) {
@@ -26,17 +23,6 @@ public class DowsingRodItem extends Item {
             for(int i = 0; i <= positionClicked.getY() + 64; i++) {
                 Block blockBelow = pContext.getLevel().getBlockState(positionClicked.below(i)).getBlock();
 
-                if(isValuableBlock(blockBelow)) {
-                    outputValuableCoordinates(positionClicked.below(i), player, blockBelow);
-                    foundBlock = true;
-                    break;
-                }
-            }
-
-            if(!foundBlock) {
-                player.sendSystemMessage(new Component ("item.newworldmod.dowsing_rod.no_valuables",
-                        player.getUUID()) {
-                });
 
             }
         }
@@ -48,10 +34,6 @@ public class DowsingRodItem extends Item {
     }
 
 
-    private void outputValuableCoordinates(BlockPos blockPos, Player player, Block blockBelow) {
-        player.sendSystemMessage(new Text("Found " + blockBelow.asItem().getRegirstryName.toString() + " at " +
-                "(" + blockPos.getX() + ", " + blockPos.getY() + "," + blockPos.getZ() + ")"), player.getUUID());
-    }
 
     private boolean isValuableBlock(Block block) {
         return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE

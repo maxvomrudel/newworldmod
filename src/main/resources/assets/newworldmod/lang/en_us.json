@@ -2,11 +2,15 @@
   "item.newworldmod.citrine": "Citrine",
   "item.newworldmod.raw_citrine": "Raw Citrine",
   "item.newworldmod.elerium": "Elerium",
+  "item.newworldmod.dowsing_rod": "Dowsing Rod",
+  "item.newworldmod.cucumber": "Cucumber",
+  "item.newworldmod.coal_coke": "Coal Coke",
 
   "block.newworldmod.citrine_block": "Citrine Block",
   "block.newworldmod.raw_citrine_block": "Raw Citrine Block",
   "block.newworldmod.citrine_ore": "Citrine Ore",
   "block.newworldmod.raw_citrine_ore": "Deepslate Citrine Ore",
+  "block.newworldmod.speedyBlock": "Speedy Block",
 
   "itemGroup.tab_1": "TAB 1",
   "itemGroup.tab_2": "TAB 2"
