@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "newworldmod:block/citrine_slab"
+    },
+    "type=double": {
+      "model": "newworldmod:block/citrine_block"
+    },
+    "type=top": {
+      "model": "newworldmod:block/citrine_slab_top"
+    }
+  }
+}

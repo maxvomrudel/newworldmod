@@ -11,6 +11,15 @@
   "block.newworldmod.citrine_ore": "Zitrinerz",
   "block.newworldmod.raw_citrine_ore": "Tiefenschiefer Citrinerz",
   "block.newworldmod.speedyBlock": "Speedy Block",
+  "block.newworldmod.citrine_stairs": "Citrine Stairs",
+  "block.newworldmod.citrine_slab": "Citrine Slab",
+  "block.newworldmod.citrine_fence": "Citrine Fence",
+  "block.newworldmod.citrine_fence_gate": "Citrine Fence Gate",
+  "block.newworldmod.citrine_wall": "Citrine Wall",
+  "block.newworldmod.citrine_button": "Citrine Button",
+  "block.newworldmod.citrine_pressure_plate": "Citrine Pressure Plate",
+  "block.newworldmod.ebony_door": "Ebony Door",
+  "block.newworldmod.ebony_trapdoor": "Ebony Trapdoor",
 
   "itemGroup.tab_1": "TAB 1",
   "itemGroup.tab_2": "TAB 2"

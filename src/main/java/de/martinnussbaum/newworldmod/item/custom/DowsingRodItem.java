@@ -1,12 +1,21 @@
 package de.martinnussbaum.newworldmod.item.custom;
 
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import org.jetbrains.annotations.Nullable;
+import org.w3c.dom.Text;
+
+import java.util.List;
 
 public class DowsingRodItem extends Item {
     public DowsingRodItem(Properties pProperties) {
@@ -32,8 +41,6 @@ public class DowsingRodItem extends Item {
 
         return super.useOn(pContext);
     }
-
-
 
     private boolean isValuableBlock(Block block) {
         return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "newworldmod:block/citrine_block",
+    "top": "newworldmod:block/citrine_block",
+    "side": "newworldmod:block/citrine_block"
+  }
+}

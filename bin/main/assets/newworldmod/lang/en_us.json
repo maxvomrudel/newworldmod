@@ -1,0 +1,13 @@
+{
+  "item.newworldmod.citrine": "Citrine",
+  "item.newworldmod.raw_citrine": "Raw Citrine",
+  "item.newworldmod.elerium": "Elerium",
+
+  "block.newworldmod.citrine_block": "Citrine Block",
+  "block.newworldmod.raw_citrine_block": "Raw Citrine Block",
+  "block.newworldmod.citrine_ore": "Citrine Ore",
+  "block.newworldmod.raw_citrine_ore": "Deepslate Citrine Ore",
+
+  "itemGroup.tab_1": "TAB 1",
+  "itemGroup.tab_2": "TAB 2"
+}
