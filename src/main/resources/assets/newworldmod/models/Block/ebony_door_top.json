@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_top",
   "textures": {
-    "top": "newworldmod:block/ebony_door_top",
-    "bottom": "newworldmod:block/ebony_door_bottom"
+    "top": "newworldmod:Block/ebony_door_top",
+    "bottom": "newworldmod:Block/ebony_door_bottom"
   }
 }

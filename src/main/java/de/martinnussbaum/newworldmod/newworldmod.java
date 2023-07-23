@@ -32,13 +32,16 @@ public class newworldmod {
 
         MinecraftForge.EVENT_BUS.register(this);
     }
-    private void setup(final FMLCommonSetupEvent event) {
-        LOGGER.info("HELLO FROM PREINIT");
-    }
 
     private void clientSetup(final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_DOOR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_TRAPDOOR.get(), RenderType.translucent());
     }
+
+    private void setup(final FMLCommonSetupEvent event) {
+        LOGGER.info("HELLO FROM PREINIT");
+    }
+
+
 
 }
