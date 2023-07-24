@@ -2,6 +2,7 @@ package de.martinnussbaum.newworldmod.item;
 
 import de.martinnussbaum.newworldmod.item.custom.DowsingRodItem;
 import de.martinnussbaum.newworldmod.item.custom.LevitationSwordItem;
+import de.martinnussbaum.newworldmod.item.custom.ModArmorItem;
 import de.martinnussbaum.newworldmod.newworldmod;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -41,7 +42,7 @@ public class ModItems {
             () -> new HoeItem(ModTiers.CITRINE, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
     public static final RegistryObject<Item> CITRINE_HELMET = ITEMS.register("citrine_helmet",
-            () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.HEAD,
+            () -> new ModArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
     public static final RegistryObject<Item> CITRINE_CHESTPLATE = ITEMS.register("citrine_chestplate",
             () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.CHEST,
@@ -52,6 +53,8 @@ public class ModItems {
     public static final RegistryObject<Item> CITRINE_BOOTS = ITEMS.register("citrine_boots",
             () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
+    public static final RegistryObject<Item> MAGIC_DUST = ITEMS.register("magic_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
 
     public static void register(IEventBus eventBus) {  ITEMS.register(eventBus);   }
 

@@ -14,6 +14,7 @@
   "item.newworldmod.citrine_chestplate": "Citrine Chestplate",
   "item.newworldmod.citrine_leggins": "Citrine Leggins",
   "item.newworldmod.citrine_boots": "Citrine Boots",
+  "item.newworldmod.magic_dust": "Magic Dust",
 
   "block.newworldmod.citrine_block": "Citrine Block",
   "block.newworldmod.raw_citrine_block": "Raw Citrine Block",
@@ -29,6 +30,9 @@
   "block.newworldmod.citrine_pressure_plate": "Citrine Pressure Plate",
   "block.newworldmod.ebony_door": "Ebony Door",
   "block.newworldmod.ebony_trapdoor": "Ebony Trapdoor",
+  "block.newworldmod.pink_rose": "Pink Rose",
+  "block.newworldmod.potted_pink_rose": "Potted Pink Rose",
+  "block.newworldmod.winter_window": "Winter Window",
 
 
   "itemGroup.tab_1": "TAB 1",
