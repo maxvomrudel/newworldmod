@@ -1,5 +1,7 @@
 package de.martinnussbaum.newworldmod.block;
 
+import de.martinnussbaum.newworldmod.block.custom.CitrineLampBlock;
+import de.martinnussbaum.newworldmod.block.custom.CucumberPlantBlock;
 import de.martinnussbaum.newworldmod.block.custom.SpeedyBlock;
 import de.martinnussbaum.newworldmod.item.ModCreativeModeTab;
 import de.martinnussbaum.newworldmod.item.ModItems;
@@ -77,6 +79,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> WINTER_WINDOW = registerBlock("winter_window",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()),
             ModCreativeModeTab.TAB_1);
+    public static final RegistryObject<Block> CITRINE_LAMP = registerBlock("citrine_lamp",
+            () -> new CitrineLampBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops().lightLevel(
+                            (state) -> state.getValue(CitrineLampBlock.CLICKED) ? 15 : 0)), ModCreativeModeTab.TAB_1);
+    public static final RegistryObject<Block> CUCUMBER_PLANT = registerBlockWithoutBlockItem("cucumber_plant",
+            () -> new CucumberPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {

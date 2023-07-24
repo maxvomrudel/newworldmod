@@ -3,6 +3,7 @@ package de.martinnussbaum.newworldmod;
 import com.mojang.logging.LogUtils;
 import de.martinnussbaum.newworldmod.block.ModBlocks;
 import de.martinnussbaum.newworldmod.item.ModItems;
+import de.martinnussbaum.newworldmod.util.ModItemProperties;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
@@ -43,6 +44,9 @@ public class newworldmod {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PINK_ROSE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_PINK_ROSE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WINTER_WINDOW.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.CUCUMBER_PLANT.get(), RenderType.cutout());
+
+        ModItemProperties.addCustomItemProperties();
     }
 
     private void setup(final FMLCommonSetupEvent event) {

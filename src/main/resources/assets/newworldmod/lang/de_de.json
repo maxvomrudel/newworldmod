@@ -15,6 +15,7 @@
   "item.newworldmod.citrine_leggins": "Citrine Leggins",
   "item.newworldmod.citrine_boots": "Citrine Boots",
   "item.newworldmod.magic_dust": "Magic Dust",
+  "item.newworldmod.kaupen_bow": "Kaupen Bow",
 
   "block.newworldmod.citrine_block": "Zitrin Block",
   "block.newworldmod.raw_citrine_block": "Rohzitrin Block",
@@ -33,6 +34,8 @@
   "block.newworldmod.pink_rose": "Pink Rose",
   "block.newworldmod.potted_pink_rose": "Potted Pink Rose",
   "block.newworldmod.winter_window": "Winter Window",
+  "block.newworldmod.citrine_lamp": "Citrine Lamp",
+  "item.newworldmod.cucumber_seeds": "Cucmber Seeds",
 
   "itemGroup.tab_1": "TAB 1",
   "itemGroup.tab_2": "TAB 2"

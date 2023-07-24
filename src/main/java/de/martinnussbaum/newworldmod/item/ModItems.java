@@ -1,5 +1,6 @@
 package de.martinnussbaum.newworldmod.item;
 
+import de.martinnussbaum.newworldmod.block.ModBlocks;
 import de.martinnussbaum.newworldmod.item.custom.DowsingRodItem;
 import de.martinnussbaum.newworldmod.item.custom.LevitationSwordItem;
 import de.martinnussbaum.newworldmod.item.custom.ModArmorItem;
@@ -23,7 +24,7 @@ public class ModItems {
     public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
             () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.TAB_1).durability(16)));
     public static final RegistryObject<Item> CUCUMBER = ITEMS.register("cucumber",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB_1).food(ModFoods.CUCUMBER)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB_2).food(ModFoods.CUCUMBER)));
     public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
             () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
     public static final RegistryObject<Item> CITRINE_SWORD = ITEMS.register("citrine_sword",
@@ -55,6 +56,12 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
     public static final RegistryObject<Item> MAGIC_DUST = ITEMS.register("magic_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
+
+    public static final RegistryObject<Item> KAUPEN_BOW = ITEMS.register("kaupen_bow",
+            () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.TAB_1).durability(500)));
+    public static final RegistryObject<Item> CUCUMBER_SEEDS = ITEMS.register("cucumber_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.CUCUMBER_PLANT.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.TAB_2)));
 
     public static void register(IEventBus eventBus) {  ITEMS.register(eventBus);   }
 
