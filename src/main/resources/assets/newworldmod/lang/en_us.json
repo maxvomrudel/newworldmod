@@ -17,6 +17,8 @@
   "item.newworldmod.magic_dust": "Magic Dust",
   "item.newworldmod.kaupen_bow": "Kaupen Bow",
   "item.newworldmod.cucumber_seeds": "Cucmber Seeds",
+  "item.newworldmod.bar_brawl_music_discs": "Bar Brawl Music Disc",
+  "item.newworldmod.bar_brawl_music_disc_desc": "Bryan Tech - Bar Brawl (CC0)",
 
   "block.newworldmod.citrine_block": "Citrine Block",
   "block.newworldmod.raw_citrine_block": "Raw Citrine Block",
@@ -39,5 +41,8 @@
 
 
   "itemGroup.tab_1": "TAB 1",
-  "itemGroup.tab_2": "TAB 2"
+  "itemGroup.tab_2": "TAB 2",
+
+
+  "sounds.newworldmod.dowsing_rod_found_ore": "Dowsing Rod Found Item Sound"
 }

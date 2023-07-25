@@ -3,6 +3,7 @@ package de.martinnussbaum.newworldmod;
 import com.mojang.logging.LogUtils;
 import de.martinnussbaum.newworldmod.block.ModBlocks;
 import de.martinnussbaum.newworldmod.item.ModItems;
+import de.martinnussbaum.newworldmod.sound.ModSounds;
 import de.martinnussbaum.newworldmod.util.ModItemProperties;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -31,6 +32,7 @@ public class newworldmod {
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
+        ModSounds.register(eventBus);
 
 
 

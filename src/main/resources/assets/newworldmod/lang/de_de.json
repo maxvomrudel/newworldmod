@@ -1,9 +1,9 @@
 {
-  "item.newworldmod.citrine": "Zitrin",
-  "item.newworldmod.raw_citrine": "Rohes Zitrin",
+  "item.newworldmod.citrine": "Citrine",
+  "item.newworldmod.raw_citrine": "Raw Citrine",
   "item.newworldmod.elerium": "Elerium",
   "item.newworldmod.dowsing_rod": "Dowsing Rod",
-  "item.newworldmod.cucumber": "Gurke",
+  "item.newworldmod.cucumber": "Cucumber",
   "item.newworldmod.coal_coke": "Coal Coke",
   "item.newworldmod.citrine_pickaxe": "Citrine Pickaxe",
   "item.newworldmod.citrine_axe": "Citrine Axe",
@@ -16,11 +16,14 @@
   "item.newworldmod.citrine_boots": "Citrine Boots",
   "item.newworldmod.magic_dust": "Magic Dust",
   "item.newworldmod.kaupen_bow": "Kaupen Bow",
+  "item.newworldmod.cucumber_seeds": "Cucmber Seeds",
+  "item.newworldmod.bar_brawl_music_discs": "Bar Brawl Music Disc",
+  "item.newworldmod.bar_brawl_music_disc_desc": "Bryan Tech - Bar Brawl (CC0)",
 
-  "block.newworldmod.citrine_block": "Zitrin Block",
-  "block.newworldmod.raw_citrine_block": "Rohzitrin Block",
-  "block.newworldmod.citrine_ore": "Zitrinerz",
-  "block.newworldmod.raw_citrine_ore": "Tiefenschiefer Citrinerz",
+  "block.newworldmod.citrine_block": "Citrine Block",
+  "block.newworldmod.raw_citrine_block": "Raw Citrine Block",
+  "block.newworldmod.citrine_ore": "Citrine Ore",
+  "block.newworldmod.raw_citrine_ore": "Deepslate Citrine Ore",
   "block.newworldmod.speedy_block": "Speedy Block",
   "block.newworldmod.citrine_stairs": "Citrine Stairs",
   "block.newworldmod.citrine_slab": "Citrine Slab",
@@ -35,10 +38,11 @@
   "block.newworldmod.potted_pink_rose": "Potted Pink Rose",
   "block.newworldmod.winter_window": "Winter Window",
   "block.newworldmod.citrine_lamp": "Citrine Lamp",
-  "item.newworldmod.cucumber_seeds": "Cucmber Seeds",
+
 
   "itemGroup.tab_1": "TAB 1",
-  "itemGroup.tab_2": "TAB 2"
+  "itemGroup.tab_2": "TAB 2",
 
 
+  "sounds.newworldmod.dowsing_rod_found_ore": "Dowsing Rod Found Item Sound"
 }

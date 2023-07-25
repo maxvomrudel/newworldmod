@@ -6,6 +6,7 @@ import de.martinnussbaum.newworldmod.block.custom.SpeedyBlock;
 import de.martinnussbaum.newworldmod.item.ModCreativeModeTab;
 import de.martinnussbaum.newworldmod.item.ModItems;
 import de.martinnussbaum.newworldmod.newworldmod;
+import de.martinnussbaum.newworldmod.sound.ModSounds;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -82,7 +83,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> CITRINE_LAMP = registerBlock("citrine_lamp",
             () -> new CitrineLampBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(2f).requiresCorrectToolForDrops().lightLevel(
-                            (state) -> state.getValue(CitrineLampBlock.CLICKED) ? 15 : 0)), ModCreativeModeTab.TAB_1);
+                            (state) -> state.getValue(CitrineLampBlock.CLICKED) ? 15 : 0).sound(ModSounds.CITRINE_LAMP_SOUNDS)),
+            ModCreativeModeTab.TAB_1);
     public static final RegistryObject<Block> CUCUMBER_PLANT = registerBlockWithoutBlockItem("cucumber_plant",
             () -> new CucumberPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 

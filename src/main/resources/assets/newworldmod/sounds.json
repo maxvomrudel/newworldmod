@@ -1,0 +1,47 @@
+{
+  "dowsing_rod_found_ore": {
+    "subtitle": "sounds.newworldmod.dowsing_rod_found_ore",
+    "sounds": [
+      "newworldmod:dowsing_rod_found_ore"
+    ]
+  },
+  "citrine_lamp_break": {
+    "subtitle": "newworldmod.citrine_lamp_break",
+    "sounds": [
+      "newworldmod:citrine_lamp_break"
+    ]
+  },
+  "citrine_lamp_step": {
+    "subtitle": "newworldmod.citrine_lamp_step",
+    "sounds": [
+      "newworldmod:citrine_lamp_step"
+    ]
+  },
+  "citrine_lamp_place": {
+    "subtitle": "newworldmod.citrine_lamp_place",
+    "sounds": [
+      "newworldmod:citrine_lamp_place"
+    ]
+  },
+  "citrine_lamp_hit": {
+    "subtitle": "newworldmod.citrine_lamp_hit",
+    "sounds": [
+      "newworldmod:citrine_lamp_hit"
+    ]
+  },
+  "citrine_lamp_fall": {
+    "subtitle": "newworldmod.citrine_lamp_fall",
+    "sounds": [
+      "newworldmod:citrine_lamp_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "newworldmod:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}
+}
