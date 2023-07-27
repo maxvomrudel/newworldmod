@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "newworldmod:ebony_log",
+    "newworldmod:ebony_wood",
+    "newworldmod:stripped_ebony_log",
+    "newworldmod:stripped_ebony_wood"
+  ]
+}

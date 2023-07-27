@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "newworldmod:block/ebony_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "newworldmod:block/ebony_log"
+    },
+    "axis=z": {
+      "model": "newworldmod:block/ebony_log_horizontal",
+      "x": 90
+    }
+  }
+}
