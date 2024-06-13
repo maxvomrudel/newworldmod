@@ -1,0 +1,6 @@
+{
+    "variants": {
+      "axis=z": { "model": "newworldmod:block/portal_ew" },
+      "axis=x": { "model": "newworldmod:block/portal_ns" }
+    }
+  }

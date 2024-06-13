@@ -146,6 +146,9 @@ public class ModBlocks {
         return BLOCKS.register(name, block);
     }
 
+    public static final RegistryObject<Block> CUSTOM_PORTAL = registerBlockWithoutBlockItem("custom_portal",
+    PortalBlock::new);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

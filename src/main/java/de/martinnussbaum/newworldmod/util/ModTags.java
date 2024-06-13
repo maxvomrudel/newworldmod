@@ -11,6 +11,8 @@ import net.minecraftforge.common.Tags;
 
 public class ModTags {
     public static class Blocks {
+      public static final TagKey<Block> PORTAL_FRAME_BLOCKS
+                = tag("portal_frame_blocks");
         //public static final Tags.IOptionalNamedTag<Block> DOWSING_ROD_VALUABLES
          //       = tag("dowsing_rod_valuables");
 

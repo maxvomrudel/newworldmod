@@ -34,6 +34,8 @@ public class newworldmod {
         eventBus.addListener(this::clientSetup);
         ModSounds.register(eventBus);
 
+        ModPOI.register(eventBus);
+
 
 
         MinecraftForge.EVENT_BUS.register(this);

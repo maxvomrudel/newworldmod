@@ -37,9 +37,8 @@ public class ModItems {
     public static final RegistryObject<Item> CITRINE_SHOVEL = ITEMS.register("citrine_shovel",
             () -> new ShovelItem(ModTiers.CITRINE, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
-    public static final RegistryObject<Item> CITRINE_AXE = ITEMS.register("citrine_axe",
-            () -> new AxeItem(ModTiers.CITRINE, 2, 3f,
-                    new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
+    public static final RegistryObject<Item> CITRINE_AXE = ITEMS.register("citrine_axe", CataclystItem::new);
+      
     public static final RegistryObject<Item> CITRINE_HOE = ITEMS.register("citrine_hoe",
             () -> new HoeItem(ModTiers.CITRINE, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
@@ -68,3 +67,6 @@ public class ModItems {
     public static void register(IEventBus eventBus) {  ITEMS.register(eventBus);   }
 
 }
+
+//      () -> new AxeItem(ModTiers.CITRINE, 2, 3f,
+//new Item.Properties().tab(ModCreativeModeTab.TAB_1)));
